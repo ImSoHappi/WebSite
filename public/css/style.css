@@ -1,0 +1,192 @@
+body {
+    background: url('/img/bg.gif') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.conten {
+    margin-top: 5%;
+}
+
+.profile {
+    height: 680px;
+    max-height: 680px;
+    width: 400px;
+    z-index: 1;
+    padding: 0;
+    border: black 1px solid;
+}
+
+.resume {
+    height: 100%;
+    max-height: 650px;
+    width: 100%;
+    max-width: 50%;
+    overflow-y: scroll;
+    padding: 30px;
+}
+
+.titles {
+    margin-top: 100px;
+}
+
+hr {
+    width: 50%;
+    margin-bottom: 25px;
+}
+
+p {
+    font-size: 1.2rem;
+}
+h5 {
+    font-size: 1.5rem;
+}
+
+.nav-custom {
+    position: absolute;
+    left: 40px;
+    padding: 10px;
+    width: 120px;
+    background-color: #f8f9fa;
+    border-radius: 5px ;
+    z-index: 2;
+    left: -125px;
+}
+
+.img-content {
+    height: 400px;
+    clip-path: polygon(0% 0%, 100% 0, 100% 80%, 50% 100%, 0 80%);
+    background-image: url('/img/samuelimg.jpeg');
+    background-size: 500px;
+    background-position: -90px -50px;
+    margin-bottom: 30px;
+}
+
+.social-i {
+    height: 50px;
+}
+
+.icon-social {
+    padding: 10px;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+.skill-card {
+    padding: 10px 0;
+}
+.skill-card:hover {
+    background-color: #0d6efd;
+    color: white;
+}
+
+.icon-title {
+    padding-top: 20px;
+}
+
+.sub-title {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.card-subtitle {
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+ul.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+ul.timeline > li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+ul.timeline > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #ffc107;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+.text-timeline {
+    font-size: 14px;
+}
+.title-timeline {
+    padding-left: 20px;
+}
+
+.timeline-container {
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.8;
+}
+
+h4 {
+    line-height: 1.5;
+}
+
+.spec-title {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.footer-title {
+    text-align: center;
+    padding-top: 120px;
+}
+
+.portafolio-text {
+    font-size: 16px !important;
+    padding-top: 20px;
+}
+
+.img-card {
+    margin-top: 20px;
+}
+
+
+/* Media query */
+
+@media only screen and (max-width: 700px) {
+    #left-nav {
+        display: none !important;
+    }
+    .resume {
+        max-width: 90%;
+        margin-top: 50px;
+        max-height: 100%;
+    }
+    #v-pills-resumen, #v-pills-skills, #v-pills-portafolio, #v-pills-logros  {
+        display: block;
+        opacity: 100%;
+    }
+}
