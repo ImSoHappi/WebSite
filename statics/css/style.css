@@ -1,5 +1,5 @@
 body {
-    background: url('/portfolio2.0/statics/img/bg.gif') no-repeat center center fixed; 
+    background: url('/statics/img/bg.gif') no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -58,7 +58,7 @@ h5 {
 .img-content {
     height: 400px;
     clip-path: polygon(0% 0%, 100% 0, 100% 80%, 50% 100%, 0 80%);
-    background-image: url('/portfolio2.0/statics/img/samuelimg.jpeg');
+    background-image: url('/statics/img/samuelimg.jpeg');
     background-size: 500px;
     background-position: -90px -50px;
     margin-bottom: 30px;
