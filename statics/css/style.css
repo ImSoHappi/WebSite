@@ -142,8 +142,8 @@ ul.timeline > li:before {
 }
 
 p {
-    text-align: justify;
-    line-height: 1.8;
+    text-align: left;
+    line-height: 1.4em;
 }
 
 h4 {
@@ -153,8 +153,8 @@ h4 {
 .spec-title {
     font-size: 1.4rem;
     font-weight: bold;
-    margin-top: 50px;
-    margin-bottom: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     text-decoration: underline;
     text-align: center;
 }
@@ -173,7 +173,6 @@ h4 {
     margin-top: 20px;
 }
 
-
 /* Media query */
 
 @media only screen and (max-width: 700px) {
@@ -181,12 +180,65 @@ h4 {
         display: none !important;
     }
     .resume {
-        max-width: 90%;
-        margin-top: 50px;
+        max-width: 100%;
         max-height: 100%;
+        padding: 30px 10px;
+    }
+    .profile {
+        box-shadow: none !important;
+        border: none;
+        margin-top: 0;
+    }
+    .conten {
+        margin-top: 0;
+    }
+    hr {
+        width: 100%;
+    }
+    .card-subtitle{
+        margin-top: 40px;
+    }
+    .list-group-item {
+        margin-top: 40px;
+    }
+    .spec-title {
+        text-align: left;
+    }
+    .img-desktop {
+        display: none;
+    }
+    .img-mobile {
+        display: block !important;
+    }
+    p {
+        font-size: 1rem;
+    }
+    .timeline-container {
+        padding: 0;
+    }
+    .timeline-content {
+        padding: 0 !important;
+    }
+    #border-timeline {
+        border-right: none !important;
+        padding: 0;
     }
     #v-pills-resumen, #v-pills-skills, #v-pills-portafolio, #v-pills-logros  {
         display: block;
         opacity: 100%;
+    }
+    .footer-title {
+        background-color: #0d6efd;
+        color: white;
+        margin-bottom: 0;
+        padding: 50px 20px;
+    }
+    .nav-link {
+        display: block !important;
+        color: white !important;
+        padding: 8px 20px;
+    }
+    .mobile-nav {
+        background-color: #0d6efd;
     }
 }
