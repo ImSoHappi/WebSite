@@ -240,5 +240,6 @@ h4 {
     }
     .mobile-nav {
         background-color: #0d6efd;
+        display: flex !important;
     }
 }
