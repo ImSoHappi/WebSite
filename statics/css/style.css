@@ -61,7 +61,7 @@ h5 {
     background-image: url('https://imsohappi.github.io/WebSite/statics/img/samuelimg.jpeg');
     background-size: 500px;
     background-position: -90px -50px;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
 
 .social-i {
@@ -72,6 +72,9 @@ h5 {
     padding: 10px;
     color: black;
 }
+.icon-social:hover {
+    color: #0d6efd;
+}
 
 a {
     text-decoration: none;
@@ -79,10 +82,6 @@ a {
 
 .skill-card {
     padding: 10px 0;
-}
-.skill-card:hover {
-    background-color: #0d6efd;
-    color: white;
 }
 
 .icon-title {
@@ -177,20 +176,30 @@ h4 {
 
 /* Media query */
 
-@media only screen and (min-width: 700px) and (max-width: 890px) {
+@media only screen and (min-width: 750px) and (max-width: 1185px) {
     .nav-custom {
         top: 710px;
-        left: -155px;
+        left: -170px;
     }
     .resume {
         margin-top: 30px;
+        max-width: 486px;
     }
     .footer-title {
         padding: 30px;
     }
 }
 
-@media only screen and (max-width: 700px) {
+
+@media only screen and (max-width: 425px) {
+    .profile {
+        height: 100vh;
+        max-height: 100vh;
+    }
+}
+
+
+@media only screen and (max-width: 749px) {
     #left-nav {
         display: none !important;
     }
@@ -250,5 +259,6 @@ h4 {
     }
     .nav-mobile {
         color: #fff;
+        
     }
 }
